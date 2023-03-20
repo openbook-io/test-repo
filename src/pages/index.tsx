@@ -12,6 +12,9 @@ export default function Home() {
       </Head>
       <h1>Homepage</h1>
       <Link href="/test">Test</Link>
+      <Link href="/123/test">Test</Link>
+      <Link href="/541/test">Test</Link>
+      <Link href="/993/test">Test</Link>
     </>
   )
 }

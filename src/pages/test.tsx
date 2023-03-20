@@ -12,6 +12,9 @@ export default function Test() {
       </Head>
       <h1>Test</h1>
       <Link href="/">Index</Link>
+      <Link href="/12333/test">Test</Link>
+      <Link href="/54133/test">Test</Link>
+      <Link href="/99333/test">Test</Link>
     </>
   )
 }
