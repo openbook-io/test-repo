@@ -18,7 +18,9 @@ export default function Home(props: IProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Homepage</h1>
+      <br />
       <Link href="/test">Test</Link>
+      <br />
       {props.data.name}
     </>
   )
@@ -34,7 +36,7 @@ export async function getStaticPaths() {
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: AppContext) {
   const getSomething = await new Promise(resolve => setTimeout(resolve, 250)).then(() => ({
-    name: 'cheese'
+    name: 'Some fake data fetching'
   }))
 
   return {
