@@ -11,13 +11,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Homepage</h1>
-      <Link href="/test">Test</Link>
+      <Link href="/test">This link works (no hard refresh)</Link>
       <br />
-      <Link href="/123/test">Test</Link>
+      <Link href="/123/test">This link does hard refresh</Link>
       <br />
-      <Link href="/541/test">Test</Link>
+      <Link href="/541/test">This link does hard refresh</Link>
       <br />
-      <Link href="/993/test">Test</Link>
+      <Link href="/993/test">This link does hard refresh</Link>
     </>
   )
 }
