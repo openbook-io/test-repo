@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Test() {
   return (
     <>
       <Head>
@@ -10,8 +10,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Homepage</h1>
-      <Link href="/test">Test</Link>
+      <h1>Test</h1>
+      <Link href="/">Index</Link>
     </>
   )
 }
