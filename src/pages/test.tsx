@@ -11,13 +11,16 @@ export default function Test() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Test</h1>
-      <Link href="/">Back to homepage (works no hard refresh)</Link>
+      <Link href="/">Back to homepage (works no refresh)</Link>
       <br />
-      <Link href="/12333/test">This link does hard refresh</Link>
+      <Link href="/12333/test">This link causes refresh</Link>
       <br />
-      <Link href="/54133/test">This link does hard refresh</Link>
+      <Link href="/54133/test">This link causes refresh</Link>
       <br />
-      <Link href="/99333/test">This link does hard refresh</Link>
+      <Link href={{
+        pathname: '/[uid]/test',
+        query: { uid: '99333' },
+      }}>This link causes refresh</Link>
     </>
   )
 }
